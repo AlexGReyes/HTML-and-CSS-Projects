@@ -11,7 +11,7 @@
   <h3 align="center">HTML and CSS Projects</h3>
 
   <p align="center">
-    HTML and CSS projects !
+    The Tech Academy
     <br />
   </p>
 </div>
@@ -35,7 +35,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
-This repository includes all the project developed at The Tech Academy using HTML and CSS.
+This repository includes all the projects developed in The Tech Academy using HTML and CSS.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
