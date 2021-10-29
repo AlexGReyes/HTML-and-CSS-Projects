@@ -1,0 +1,17 @@
+
+table{
+	background-color:#EBF5FB;
+	color:#1C2833 ;
+	text-align: center;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	border: 1px solid #641E16;
+}
+
+table td:hover{
+	background-color:#7B241C;
+	color:#EBF5FB ;
+}
+
+th, td{
+	border: 1px dashed  #641E16;
+}
