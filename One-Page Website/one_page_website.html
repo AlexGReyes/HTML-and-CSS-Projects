@@ -2,19 +2,24 @@
 <html lang="en">
 	<head>
 		<title>The Circus</title>
+		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
 		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Lobster&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/one_page_website.css">
 		<style>
 		</style>
 	</head>
 	<body>
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
-					<a href="#home" id="link"><li>HOME`</li></a>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery"><li>GALLERY</li></a>
 					<a href="#video"><li>OUR SHOW</li></a>
-					<a href="#contact"><li>RESERVATIONS</li></a>
+					<a href="#contact"><li>TICKETS</li></a>
 				</ul>
 			</div>
 		</div>
@@ -23,28 +28,30 @@
 		<!-- HOME -->
 		
 		<div id="home">
-			<div>
-				<div>
-					<h1>The Greatest Show on Earth</h1>
-					<p>Ringling Bros. and Barnum & Bailey Circus had its roots in Dan Castello’s Great Circus & Egyptian Caravan, 
-					which was founded in Delavan, Wisconsin, in 1867 by two veteran circus men, Dan Castello and William Cameron Coup. 
-					Featuring eight camels that had belonged to the U.S. Army’s experimental Camel Corps, Castello and Coup’s circus toured the 
-					Upper Midwest, both overland and by boat.</p>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">The Greatest Show on Earth</span>
+					
+					<p class="head-sub-main">Ringling Bros. and Barnum & Bailey Circus had its roots in Dan Castello’s Great Circus & Egyptian Caravan, 
+						which was founded in Delavan, Wisconsin, in 1867 by two veteran circus men, Dan Castello and William Cameron Coup. 
+						Featuring eight camels that had belonged to the U.S. Army’s experimental Camel Corps, Castello and Coup’s circus toured the 
+						Upper Midwest, both overland and by boat.
+					</p>
 				</div>
 			</div>
 		</div>
 		<!-- END HOME -->
 		
 		<!-- GALLERY -->
-		<section>
-			<div id="gallery">
+		<section id="gallery">
+			<div class="container">
 				<h1>Gallery</h1>
-				<div>
+				<div class="flex-container">
 					<!-- PHOTO-CONTAINER 1 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="images/thumb/thumbnail_1.jpg" alt="this is our circus">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>Step right up, ladies and gentlemen, boys and girls, to the world of gears and canvas, pulleys and sawdust</p>
 							</div>
@@ -53,10 +60,10 @@
 					<!-- END PHOTO-CONTAINER 1 -->
 					
 					<!-- PHOTO-CONTAINER 2 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="images/thumb/thumbnail_2.jpg" alt="Cirque Mechanics will perform">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>Inventive circus troupe Cirque Mechanics invites audiences to "Step right up"</p>
 							</div>
@@ -66,10 +73,10 @@
 					
 					
 					<!-- PHOTO-CONTAINER 3 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="images/thumb/thumbnail_3.jpg" alt="Our biggest stars">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>The biggest stars of any circus are those magnificent elephants. Be sure to see these three lovely ladies under the big top!</p>
 							</div>
@@ -79,10 +86,10 @@
 					
 					
 					<!-- PHOTO-CONTAINER 4 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="images/thumb/thumbnail_4.jpg" alt="Clowns performing">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>Clowns performing during the final tour of the Ringling Bros.</p>
 							</div>
@@ -92,10 +99,10 @@
 					
 					
 					<!-- PHOTO-CONTAINER 5 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="images/thumb/thumbnail_5.jpg" alt="The acrobats">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>Our acrobats at the Circus</p>
 							</div>
@@ -105,10 +112,10 @@
 					
 					
 					<!-- PHOTO-CONTAINER 6 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="images/thumb/thumbnail_6.jpg" alt="The presenter and leader">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>It’s time for your family to be amazed by all the X-TRAORDINARY things</p>
 							</div>
@@ -118,10 +125,10 @@
 					
 					
 					<!-- PHOTO-CONTAINER 7 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="images/thumb/thumbnail_7.jpg" alt="our amazing circus performers">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>our amazing circus performers will bring you laughs, thrills, and nonstop fun! </p>
 							</div>
@@ -131,10 +138,10 @@
 					
 					
 					<!-- PHOTO-CONTAINER 8 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="images/thumb/thumbnail_8.jpg" alt="Artists of the Maslenitsa Ballet from Russia">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p>Artists of the Maslenitsa Ballet from Russia</p>
 							</div>
@@ -144,10 +151,10 @@
 					
 					
 					<!-- PHOTO-CONTAINER 9 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="images/thumb/thumbnail_9.jpeg" alt="Elephants">
-							<div>
+							<div class="photo-overlay">
 								<h3>Click to enlarge</h3>
 								<p> Elephants perform on opening night of the Coney Island Boom A Ring!</p>
 							</div>
@@ -160,41 +167,44 @@
 		</section>
 		<!-- END GALLERY -->
 		
+		
 		<!-- VIDEO -->
 		<div id="video">
 			<div>
 				<h1>Our Show</h1>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/ONrqI8C7TiE" 
+				<iframe width="100%" height="400" src="https://www.youtube.com/embed/ONrqI8C7TiE" 
 				title="YouTube video player" frameborder="0" 
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" >
 				</iframe>
+				<iframe width="100%" height="400" src="https://www.youtube.com/embed/ZOMnn4A8mLc" 
+				title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+				allowfullscreen></iframe>
 			</div>
 		</div>
 		
 		<!-- END VIDEO -->
-		
 		<!-- RSVP -->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>Reservations</h1>
-					<div>
-						<h2><span>Your adventure is just around the moon.</span>
-							<br /> Reserver your flight today!
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">TICKETS</h1>
+					<div class="reservation">
+						<h2><span>Your adventure is here.</span>
+							<br />Buy your ticket today!
 						</h2>
-						<p>
+						<p class="rsvp-text">
 							Please provide us with your basic contact information.
 						</p>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
-								<input class="rsvp" type="text" value="first Name">
-								<input class="rsvp" type="text" value="Last Name">
-								<input class="rsvp" type="text" value="Email Address">
-								<input class="rsvp" type="text" value="Phone Number">
+								<input class="rsvp" type="text" value="" placeholder="first Name">
+								<input class="rsvp" type="text" value="" placeholder="Last Name">
+								<input class="rsvp" type="text" value="" placeholder="Email Address">
+								<input class="rsvp" type="text" value="" placeholder="Phone Number">
 								<div class="form-spacer">
 									<label class="terms"> Terms and Conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="Submit">
 								</div>
 							</form>
@@ -206,8 +216,8 @@
 		<!-- END RSVP -->
 		
 		<!-- FOOTER -->
-		<div>
-			https://en.wikipedia.org/wiki/Circus &nbsp;|&nbsp; 2021
+		<div id="footer">
+			www.thedsfsdfdsf.space &nbsp;|&nbsp; $copy; 2021
 		</div>
 		<!-- END FOOTER -->
 		
