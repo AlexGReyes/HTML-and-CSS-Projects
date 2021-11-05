@@ -23,8 +23,9 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">About This Repo</a>
     </li>
+    <li><a href="#projects">Projects</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -39,6 +40,40 @@ This repository includes all the projects developed in The Tech Academy using HT
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+<!-- PROJECTS -->
+## Projects
+
+### Basic HTML and CSS
+
+this page includes basic web pages developed using HTML and CSS
+
+### Basic HTML and JavaScript
+
+this page includes basic web pages developed using HTML and JS
+
+### One Page website
+
+Website developed in one HTML file.
+
+### boortrap4_project
+
+website developed using bootstrap 4 
+
+### challenges
+
+Challenges completed from the HTML course
+
+###  portfolio
+
+Own Protfolio
+
+
+### project
+
+this page is an example home page for a coding school.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
