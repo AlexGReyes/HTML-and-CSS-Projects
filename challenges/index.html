@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Youtube</title>
+		<meta charset="utf-8">
+		<style>
+			.challenge1 img{
+				display: block;
+				margin: 0 auto;
+				filter:saturate(8);
+				border-radius: 0 0 50px 50px ;
+			}
+
+			.challenge2{
+				text-align: center;
+				font-weight: bolder;
+			}
+
+			.challenge3 table{
+				border-collapse: collapse;
+				margin: 50px 0;
+				
+			}
+
+
+			.challenge3 table,
+			.challenge3 table th,
+			.challenge3 table td{
+				border: 2px solid darkblue;
+				padding: 10px 25px;
+			}
+
+			.challenge3 table tr td{
+				padding: 5px 25px;
+				
+			}
+
+			.challenge3 table th{
+				background-color: dodgerblue;
+				color: darkblue;
+			}
+
+			.challenge4,
+			.challenge10{
+				position: relative;
+				text-align: center;
+				color: white;
+				width: 800px;
+				display: block;
+				margin: 0 auto;
+			}
+
+			
+			.challenge4 img,
+			.challenge10 video{
+				width: 100%;
+			}
+
+			.challenge4_son{
+				position: absolute;
+				top: 20px;
+				right: 16px;
+				color: greenyellow;
+			}
+
+			.challenge5 ul li{
+				background-color: navy;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				color: white;
+				padding: 15px 25px;
+				display: inline-block;
+			}
+
+			.challenge5 a{
+				text-decoration: none;
+				color: white;
+			}
+
+			.challenge5 ul li:hover{
+				background-color: white;
+			}
+			
+			.challenge5 ul li:hover a{
+				color: navy;
+			}
+
+			*{
+				box-sizing: border-box;
+			}
+
+			.challenge6:after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+
+			.column1,
+			.column2 {
+				float: left;
+				width: 50%;
+				padding: 50px 20px;
+				height: 400px; /* Should be removed. Only for demonstration */
+				font-size: large;
+			}
+
+			.column1{
+				color: aquamarine;
+				background-color: #666;
+			}
+
+			.column2{
+				color: black;
+				background-color: lightseagreen;
+			}
+
+			.challenge7 p{
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: large;
+				font-weight: bolder;
+				color: midnightblue;
+			}
+
+			.challenge7 p:hover{
+				font-style: italic;
+				font-weight: bolder;
+				color: orangered;
+			}
+
+			.challenge8 {
+				position: relative;
+				width: 50%;
+				display: block;
+				margin: 0 auto;
+			}
+
+			.challenge8 img {
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+
+			.challenge8_son {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				height: 100%;
+				width: 100%;
+				opacity: 0;
+				transition: .5s ease;
+				background-color:rgba(0, 0, 0, 0.9);
+			}
+			.challenge8:hover .challenge8_son {
+			opacity: 1;
+			}
+
+			.challenge8 h1{
+				color: white;
+				font-size: 40px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				-webkit-transform: translate(-50%, -50%);
+				-ms-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+				text-align: center;
+			}
+
+			.challenge9{
+				display: block;
+				margin: 30px auto;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div class="challenge5">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#news">News</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#about">About</a></li>
+			</ul>
+		</div>
+		  
+
+		<div class="challenge1" id="home">
+			<img src="img/tech.jpg" alt="" />
+		</div>
+
+		<div class="challenge3" id="news">
+		<table >
+			<tr>
+			  <th>Company</th>
+			  <th>Contact</th>
+			  <th>Country</th>
+			</tr>
+			<tr>
+			  <td>Alfreds Futterkiste</td>
+			  <td>Maria Anders</td>
+			  <td>Germany</td>
+			</tr>
+			<tr>
+			  <td>Centro comercial Moctezuma</td>
+			  <td>Francisco Chang</td>
+			  <td>Mexico</td>
+			</tr>
+		  </table>
+		</div>
+
+		<div class="challenge4" id="contact">
+			<img src="img/thumbnail_1.jpg" alt="circus">
+			<div class="challenge4_son">
+				<h1>Text over image</h1>
+			</div>
+		</div>
+
+		<div class="challenge6" id="about">
+			<div class="column1" >
+				Josiah Willard Gibbs (/ɡɪbz/; February 11, 1839 – April 28, 1903) was an American scientist who made significant theoretical contributions to physics, chemistry, and mathematics. His work on the applications of thermodynamics was instrumental in transforming physical chemistry into a rigorous inductive science. Together with James Clerk Maxwell and Ludwig Boltzmann, he created statistical mechanics (a term that he coined), explaining the laws of thermodynamics as consequences of the statistical properties of ensembles of the possible states of a physical system composed of many particles. Gibbs also worked on the application of Maxwell's equations to problems in physical optics. As a mathematician, he invented modern vector calculus (independently of the British scientist Oliver Heaviside, who carried out similar work during the same period).
+			</div>
+			<div class="column2" >
+				Carl Edward Sagan (/ˈseɪɡən/; November 9, 1934 – December 20, 1996) was an American astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, author, and science communicator. His best known scientific contribution is research on extraterrestrial life, including experimental demonstration of the production of amino acids from basic chemicals by radiation. Sagan assembled the first physical messages sent into space, the Pioneer plaque and the Voyager Golden Record, universal messages that could potentially be understood by any extraterrestrial intelligence that might find them. Sagan argued the hypothesis, accepted since, that the high surface temperatures of Venus can be attributed to and calculated using the greenhouse effect.[2]
+			</div>
+		</div>
+		
+		<div class="challenge7"> 
+			<p>An acid–base reaction is a chemical reaction that occurs between an acid and a base. It can be used to determine pH. Several theoretical frameworks provide alternative conceptions of the reaction mechanisms and their application in solving related problems; these are called the acid–base theories, for example, Brønsted–Lowry acid–base theory.</p>
+			<p>It is important to think of the acid-base reaction models as theories that complement each other.[2] For example, the current Lewis model has the broadest definition of what an acid and base are, with the Brønsted-Lowry theory being a subset of what acids and bases are, and the Arrhenius theory being the most restrictive</p>
+		</div>
+
+
+		<div class="challenge8">
+			<img src="img/thumbnail_1.jpg" alt="circus">
+			<div class="challenge8_son">
+				<h1>Circus</h1>
+			</div>
+		</div>
+
+		<div class="challenge9">
+			<video controls autoplay>
+				<source src="video/Eye.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+
+		
+		<div class="challenge10">
+			<video controls autoplay>
+				<source src="video/Eye.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			
+			<div class="challenge4_son">
+				<h1>text over video</h1>
+			</div>
+		</div>
+
+		<footer class="challenge2" >
+			<p>this is a footer</p>
+		</footer>
+	</body>
+</html>
