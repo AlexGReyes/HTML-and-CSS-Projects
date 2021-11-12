@@ -8,6 +8,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Lobster&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/one_page_website.css">
+		<script src="js/one_page_website.js" defer></script>
 		<style>
 		</style>
 	</head>
@@ -51,9 +52,9 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="images/thumb/thumbnail_1.jpg" alt="this is our circus">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(1)">
 								<h3>Click to enlarge</h3>
-								<p>Step right up, ladies and gentlemen, boys and girls, to the world of gears and canvas, pulleys and sawdust</p>
+								<p></p>
 							</div>
 						</div>
 					</div>
@@ -63,7 +64,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="images/thumb/thumbnail_2.jpg" alt="Cirque Mechanics will perform">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(2)">
 								<h3>Click to enlarge</h3>
 								<p>Inventive circus troupe Cirque Mechanics invites audiences to "Step right up"</p>
 							</div>
@@ -76,7 +77,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="images/thumb/thumbnail_3.jpg" alt="Our biggest stars">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(3)">
 								<h3>Click to enlarge</h3>
 								<p>The biggest stars of any circus are those magnificent elephants. Be sure to see these three lovely ladies under the big top!</p>
 							</div>
@@ -89,7 +90,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="images/thumb/thumbnail_4.jpg" alt="Clowns performing">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(4)">
 								<h3>Click to enlarge</h3>
 								<p>Clowns performing during the final tour of the Ringling Bros.</p>
 							</div>
@@ -102,7 +103,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="images/thumb/thumbnail_5.jpg" alt="The acrobats">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(5)">
 								<h3>Click to enlarge</h3>
 								<p>Our acrobats at the Circus</p>
 							</div>
@@ -115,7 +116,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="images/thumb/thumbnail_6.jpg" alt="The presenter and leader">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(6)">
 								<h3>Click to enlarge</h3>
 								<p>It’s time for your family to be amazed by all the X-TRAORDINARY things</p>
 							</div>
@@ -128,7 +129,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="images/thumb/thumbnail_7.jpg" alt="our amazing circus performers">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(7)">
 								<h3>Click to enlarge</h3>
 								<p>our amazing circus performers will bring you laughs, thrills, and nonstop fun! </p>
 							</div>
@@ -141,7 +142,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="images/thumb/thumbnail_8.jpg" alt="Artists of the Maslenitsa Ballet from Russia">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(8)">
 								<h3>Click to enlarge</h3>
 								<p>Artists of the Maslenitsa Ballet from Russia</p>
 							</div>
@@ -154,7 +155,7 @@
 					<div class="photo-container">
 						<div class="photo">
 							<img src="images/thumb/thumbnail_9.jpeg" alt="Elephants">
-							<div class="photo-overlay">
+							<div class="photo-overlay" onclick="openModal();currentSlide(9)">
 								<h3>Click to enlarge</h3>
 								<p> Elephants perform on opening night of the Coney Island Boom A Ring!</p>
 							</div>
@@ -166,7 +167,104 @@
 			</div>
 		</section>
 		<!-- END GALLERY -->
+		<!-- The Modal/Lightbox -->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
 		
+			<div class="mySlides">
+				<div class="numbertext">1 / 9</div>
+				<img src="images/thumb/thumbnail_1.jpg" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+				<div class="numbertext">2 / 9</div>
+				<img src="images/thumb/thumbnail_2.jpg" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+				<div class="numbertext">3 / 9</div>
+				<img src="images/thumb/thumbnail_3.jpg" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+				<div class="numbertext">4 / 9</div>
+				<img src="images/thumb/thumbnail_4.jpg" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+				<div class="numbertext">5 / 9</div>
+				<img src="images/thumb/thumbnail_5.jpg" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+				<div class="numbertext">6 / 9</div>
+				<img src="images/thumb/thumbnail_6.jpg" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+				<div class="numbertext">7 / 9</div>
+				<img src="images/thumb/thumbnail_7.jpg" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+				<div class="numbertext">8 / 9</div>
+				<img src="images/thumb/thumbnail_8.jpg" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+				<div class="numbertext">9 / 9</div>
+				<img src="images/thumb/thumbnail_9.jpeg" style="width:100%">
+			</div>
+		
+			<!-- Next/previous controls -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+			<!-- Caption text -->
+			<div class="caption-container">
+				<p id="caption"></p>
+			</div>
+		
+			<!-- Thumbnail image controls -->
+			<div class="column">
+				<img class="demo" src="images/thumb/thumbnail_1.jpg" onclick="currentSlide(1)" alt="Step right up, ladies and gentlemen, boys and girls, to the world of gears and canvas, pulleys and sawdust">
+			</div>
+		
+			<div class="column">
+				<img class="demo" src="images/thumb/thumbnail_2.jpg" onclick="currentSlide(2)" alt="Inventive circus troupe Cirque Mechanics invites audiences to 'Step right up'">
+			</div>
+		
+			<div class="column">
+				<img class="demo" src="images/thumb/thumbnail_3.jpg" onclick="currentSlide(3)" alt="The biggest stars of any circus are those magnificent elephants. Be sure to see these three lovely ladies under the big top!">
+			</div>
+		
+			<div class="column">
+				<img class="demo" src="images/thumb/thumbnail_4.jpg" onclick="currentSlide(4)" alt="Clowns performing during the final tour of the Ringling Bros.">
+			</div>
+
+			<div class="column">
+				<img class="demo" src="images/thumb/thumbnail_5.jpg" onclick="currentSlide(5)" alt="Our acrobats at the Circus">
+			</div>
+		
+			<div class="column">
+				<img class="demo" src="images/thumb/thumbnail_6.jpg" onclick="currentSlide(6)" alt="It’s time for your family to be amazed by all the X-TRAORDINARY things">
+			</div>
+		
+			<div class="column">
+				<img class="demo" src="images/thumb/thumbnail_7.jpg" onclick="currentSlide(7)" alt="our amazing circus performers will bring you laughs, thrills, and nonstop fun!">
+			</div>
+		
+			<div class="column">
+				<img class="demo" src="images/thumb/thumbnail_8.jpg" onclick="currentSlide(8)" alt="Artists of the Maslenitsa Ballet from Russia">
+			</div>
+		
+			<div class="column">
+				<img class="demo" src="images/thumb/thumbnail_9.jpeg" onclick="currentSlide(9)" alt="Elephants perform on opening night of the Coney Island Boom A Ring!">
+			</div>
+			</div>
+		</div>
+		<!-- The Modal/Lightbox -->
 		
 		<!-- VIDEO -->
 		<div id="video">
